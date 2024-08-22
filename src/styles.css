@@ -1,0 +1,70 @@
+#header #logo {
+    width: 150px;       /* Example: Set the width of the logo */
+    height: auto;       /* Keep the aspect ratio */
+    padding: 10px;      /* Add some padding around the logo */
+    display: block;     /* Ensure it's displayed as a block element */
+    margin: 0 auto;     /* Center the logo within the header */
+}
+#studying_img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#section2_col1{
+    display: flex;
+    align-items: center;    /* Center the .content div vertically */
+    justify-content: center; /* Center the .content div horizontally */
+    padding: 1rem;
+    font-size: 20px;
+}
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+.small-text {
+    font-size: 14px;
+}
+
+#Services{
+    padding-bottom: 1rem;
+}
+
+#header {
+    position: fixed; /* Fixes the header at the top */
+    top: 0; /* Positions the header at the top */
+    left: 0; /* Aligns the header to the left */
+    width: 100%; /* Makes the header span the full width */
+    z-index: 1000; /* Ensures the header stays above other content */
+}
+body {
+    padding-top: 56px; /* Adjust this value to match the height of the header */
+}
+
+#language-selector{
+    padding-bottom: 20px;
+
+}
+#language-selector label{
+    font-size: 10px;
+}
+.blocks{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.about-me-English{
+    width: 100%;
+    height: 100%;
+
+}
+.about-me-Japanese{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+

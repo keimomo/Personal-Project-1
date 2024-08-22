@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mt.homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="mainpage.js"></script>
+</head>
+<body>
+<div id="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MYT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav me-auto">
+                    <a class="nav-link active" aria-current="page" href="#Services">Services</a>
+                    <a class="nav-link" href="#About_me">About me</a>
+                    <a class="nav-link" href="#footer">Contact</a>
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                    <a class="nav-link" href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="first_time" >
+    <div class="container px-4 py-5" id="signup" >
+        <h2 class="pb-2 border-bottom">Private Lessons</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2" style="padding-top:1rem !important;">
+            <div class="feature col" id="section2_col1" >
+                <div class="content">
+                    <p>I'm a UBC Computer Engineering student ready to help you succeed. My personalized tutoring will make learning easy and effective. Let's achieve your goals together! <br>Sign up today for a free course planning session!</p>
+                    <p>私はUBCでコンピュータ工学を専攻している学生です。主に理系の科目を教えています。私と一緒に目標を達成しましょう！<br>無料の授業相談受け付けています！詳しくはサインアップをするか、keimomo0305@icloud.com にご連絡ください。</p>
+                    <p><a href="signup.html" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Sign Up</a></p>
+                </div>
+            </div>
+            <div class="feature col">
+                <img src="../res/img1.jpg" alt="studying_img" id="studying_img">
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="b-example-divider"></div>
+<div id="Services">
+    <div class="container px-4 py-5" id="service_content">
+        <h2 class="pb-2 border-bottom">
+            Services
+            <span>
+                <p style="font-size: 10px; color: gray; margin: 0;">All lessons can be done online or in person. However, in-person lessons will be limited by location.</p>
+            </span>
+        </h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <h3>K-12</h3>
+                <h6>price: $35/hour </h6>
+                <ul>
+                    <li>Physics: 11, 12</li>
+                    <li>Chemistry: 11, 12</li>
+                    <li>Math: Pre-calculus 11, pre-calculus 12, Calculus 12 </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>AP Courses</h3>
+                <h6>price: $35/hour </h6>
+                <ul>
+                    <li>AP Physics 1, 2</li>
+                    <li>AP Chemistry</li>
+                    <li>AP Calculus AB, BC </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>UBC Courses</h3>
+                <h6>price: $40/hour</h6>
+                <ul>
+                    <li>Phys: 100, 157, 158, 170</li>
+                    <li>Math: 100, 253, 256</li>
+                    <li>Apsc 160, CPSC 221 </li>
+                    <li>Cpen: 211, 212</li>
+                    <li>Elec: 201 </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="b-example-divider"></div>
+<div id="About_me">
+    <div class="container px-4 py-5" id="about_me_content">
+        <h2 class="pb-2 border-bottom">About Me</h2>
+
+        <div class="content">
+            <div id="language-selector">
+                <div class="button" >
+                    <input type="radio" class="btn-check" name="options-base" id="english" autocomplete="off" checked>
+                    <label class="btn" for="english">English</label>
+                    <input type="radio" class="btn-check" name="options-base" id="japanese" autocomplete="off">
+                    <label class="btn" for="japanese">Japanese</label>
+                </div>
+            </div>
+            <div class="blocks">
+                <div class="about-me-English" id="about-me-English">
+                    <p>I am an upcoming 3rd-year Computer Engineering student at the University of British Columbia.</p>
+                    <p>My journey in Canada began when I was 15, and I successfully graduated from a local high school. During my time in high school, I challenged myself with Advanced Placement (AP) courses, which deepened my understanding of various subjects and equipped me with the skills to help others excel in these areas. </p>
+                    <p>My experiences as an international student have shaped my approach to learning, and I'm passionate about helping others navigate their academic journeys. Whether you're tackling high school science courses or preparing for university-level engineering challenges, I'm here to guide you every step of the way.</p>
+                </div>
+                <div class="about-me-Japanese" id="about-me-Japanese">
+                    <p>私は、ブリティッシュコロンビア大学（UBC）でコンピュータ工学を専攻している3年生の学生です。</p>
+                    <p>15歳の時にカナダに来て、地元の高校を卒業しました。高校時代には、アドバンスト・プレースメント（AP）コースに挑戦し、さまざまな科目について深く学びました。</p>
+                    <p>高校の理系科目、大学レベルの工学課題の学びをサポートします。また、カナダの大学への進学を目指す高校生の皆さんのサポートも行っています。皆さんの夢を実現するために、全力でサポートします！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">MYT</span>
+    </div>
+
+
+</footer>
+</body>
+</html>
+
